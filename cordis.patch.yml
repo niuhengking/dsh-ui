@@ -1,0 +1,6 @@
+# deepseek-account bundle patch: mounts the host plugin (balance + token-usage
+# aggregation, loopback HTTP routes) and registers its browser widget into the
+# web profile's shell overlay.
+- insert:
+    - id: deepseek-account
+      name: '@dsh-external/dsh-client-ui-deepseek-account'
